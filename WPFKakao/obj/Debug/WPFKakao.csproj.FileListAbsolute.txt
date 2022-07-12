@@ -1,0 +1,16 @@
+C:\Users\USER\source\repos\WPFKakao\WPFKakao\bin\Debug\WPFKakao.exe.config
+C:\Users\USER\source\repos\WPFKakao\WPFKakao\bin\Debug\WPFKakao.exe
+C:\Users\USER\source\repos\WPFKakao\WPFKakao\bin\Debug\WPFKakao.pdb
+C:\Users\USER\source\repos\WPFKakao\WPFKakao\obj\Debug\WPFKakao.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\WPFKakao\WPFKakao\obj\Debug\WPFKakao.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\source\repos\WPFKakao\WPFKakao\obj\Debug\MainWindow.g.cs
+C:\Users\USER\source\repos\WPFKakao\WPFKakao\obj\Debug\App.g.cs
+C:\Users\USER\source\repos\WPFKakao\WPFKakao\obj\Debug\WPFKakao_MarkupCompile.cache
+C:\Users\USER\source\repos\WPFKakao\WPFKakao\obj\Debug\WPFKakao_MarkupCompile.lref
+C:\Users\USER\source\repos\WPFKakao\WPFKakao\obj\Debug\MainWindow.baml
+C:\Users\USER\source\repos\WPFKakao\WPFKakao\obj\Debug\WPFKakao.g.resources
+C:\Users\USER\source\repos\WPFKakao\WPFKakao\obj\Debug\WPFKakao.Properties.Resources.resources
+C:\Users\USER\source\repos\WPFKakao\WPFKakao\obj\Debug\WPFKakao.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\WPFKakao\WPFKakao\obj\Debug\WPFKakao.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\WPFKakao\WPFKakao\obj\Debug\WPFKakao.exe
+C:\Users\USER\source\repos\WPFKakao\WPFKakao\obj\Debug\WPFKakao.pdb
