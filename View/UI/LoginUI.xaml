@@ -1,0 +1,86 @@
+﻿<Window x:Class="View.UI.LoginUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:View.UI"
+        mc:Ignorable="d"
+        Title="Window1" Height="744" Width="430">
+    <Grid Background="#FFFFE800">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/> 
+        </Grid.RowDefinitions>
+        
+        <Image
+            Grid.Row="0"
+            Height="150"
+            Width="150"
+            Source="/Images/kakaoTalk_Logo.png"
+            Margin="0, 50, 0, 0"/>
+
+        <Border Grid.Row="1"
+                Height="100"
+                BorderBrush="#FFBDAD14"
+                Background="#FFFFFFFF"
+                BorderThickness="1"
+                TextBlock.FontSize="15"
+                Margin="50, 50, 50, 0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <TextBox x:Name="xUserID"
+                         VerticalAlignment="Center"
+                         Foreground="#FF404040"
+                         Text="{Binding UserID, UpdateSourceTrigger=PropertyChanged}"
+                         Margin="10,0,0,0"
+                         Style="{StaticResource sPlatTextBox}" Grid.ColumnSpan="2"/>
+                <TextBlock x:Name="xUserIDHint"
+                           VerticalAlignment="Center"
+                           Text="카카오계정(이메일 또는 전화번호)"
+                           Cursor="IBeam"
+                           Foreground="#FFA5A3A3"
+                           MouseLeftButtonUp="xUserIDHint_MouseLeftButtonUp">
+                    <TextBlock.Style>
+                        <Style BasedOn="{StaticResource xNanumSquareFont}" TargetType="TextBlock">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding UserID, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource StrLengthConverter}}"
+                                             Value="0">
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+                <Border Grid.Row="1"
+                        BorderBrush="#FFE4E2E2"
+                        BorderThickness="1" Grid.ColumnSpan="2"/>
+                <PasswordBox x:Name="xPassword"
+                             Grid.Row="2"
+                             VerticalAlignment="Center"
+                             Foreground="#FF404040"
+                             PasswordChanged="xPassword_PasswordChanged"
+                             Margin="10,0,0,0"
+                             Style="{StaticResource sPlatPasswordBox}" Grid.ColumnSpan="2"/>
+                <TextBlock x:Name="xPasswordHint"
+                           Grid.Row="2"
+                           VerticalAlignment="Center"
+                           Text="비밀번호"
+                           Cursor="IBeam"
+                           Foreground="#FFA5A3A3"
+                           MouseLeftButtonUp="xPasswordHint_MouseLeftButtonUp"
+                           Margin="10,0,0,0"
+                           Style="{StaticResource xNanumSquareFont}" Grid.ColumnSpan="2"/>
+            </Grid>
+        </Border>
+        
+    </Grid>
+</Window>

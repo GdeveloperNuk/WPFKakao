@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFKakao", "WPFKakao\WPFKakao.csproj", "{39B01F86-3A95-4383-90FA-B8A067EDD52B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "View\View.csproj", "{66A957BA-EAC8-4F93-9A06-2A38506466E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{39B01F86-3A95-4383-90FA-B8A067EDD52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39B01F86-3A95-4383-90FA-B8A067EDD52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39B01F86-3A95-4383-90FA-B8A067EDD52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A957BA-EAC8-4F93-9A06-2A38506466E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A957BA-EAC8-4F93-9A06-2A38506466E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A957BA-EAC8-4F93-9A06-2A38506466E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A957BA-EAC8-4F93-9A06-2A38506466E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
